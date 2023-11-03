@@ -1,0 +1,101 @@
+[gd_scene load_steps=2 format=3 uid="uid://dnfiesf3ms4ik"]
+
+[ext_resource type="PackedScene" uid="uid://cvu8b884pp423" path="res://prefabs/note/note.tscn" id="1_ywn8n"]
+
+[node name="piano" type="Node2D"]
+scale = Vector2(8.08, 8.08)
+
+[node name="C" parent="." instance=ExtResource("1_ywn8n")]
+offset_right = 20.0
+offset_bottom = 80.0
+text = "C"
+clip_text = true
+metadata/_edit_use_anchors_ = true
+
+[node name="D" parent="." instance=ExtResource("1_ywn8n")]
+offset_left = 20.0
+offset_right = 40.0
+offset_bottom = 80.0
+text = "D"
+clip_text = true
+metadata/_edit_use_anchors_ = true
+
+[node name="E" parent="." instance=ExtResource("1_ywn8n")]
+offset_left = 40.0
+offset_right = 60.0
+offset_bottom = 80.0
+text = "E"
+clip_text = true
+metadata/_edit_use_anchors_ = true
+
+[node name="F" parent="." instance=ExtResource("1_ywn8n")]
+offset_left = 60.0
+offset_right = 80.0
+offset_bottom = 80.0
+text = "F"
+clip_text = true
+metadata/_edit_use_anchors_ = true
+
+[node name="G" parent="." instance=ExtResource("1_ywn8n")]
+offset_left = 80.0
+offset_right = 100.0
+offset_bottom = 80.0
+text = "G"
+clip_text = true
+metadata/_edit_use_anchors_ = true
+
+[node name="A" parent="." instance=ExtResource("1_ywn8n")]
+offset_left = 100.0
+offset_right = 120.0
+offset_bottom = 80.0
+text = "A"
+clip_text = true
+metadata/_edit_use_anchors_ = true
+
+[node name="B" parent="." instance=ExtResource("1_ywn8n")]
+offset_left = 120.0
+offset_right = 140.0
+offset_bottom = 80.0
+text = "B"
+clip_text = true
+metadata/_edit_use_anchors_ = true
+
+[node name="C#" parent="." instance=ExtResource("1_ywn8n")]
+offset_left = 10.0
+offset_right = 30.0
+offset_bottom = 40.0
+text = "C#"
+clip_text = true
+metadata/_edit_use_anchors_ = true
+
+[node name="D#" parent="." instance=ExtResource("1_ywn8n")]
+offset_left = 30.0
+offset_right = 50.0
+offset_bottom = 40.0
+text = "D#"
+clip_text = true
+metadata/_edit_use_anchors_ = true
+
+[node name="F#" parent="." instance=ExtResource("1_ywn8n")]
+offset_left = 70.0
+offset_right = 90.0
+offset_bottom = 40.0
+text = "F#"
+clip_text = true
+metadata/_edit_use_anchors_ = true
+
+[node name="G#" parent="." instance=ExtResource("1_ywn8n")]
+offset_left = 90.0
+offset_right = 110.0
+offset_bottom = 40.0
+text = "G#"
+clip_text = true
+metadata/_edit_use_anchors_ = true
+
+[node name="A#" parent="." instance=ExtResource("1_ywn8n")]
+offset_left = 110.0
+offset_right = 130.0
+offset_bottom = 40.0
+text = "A#"
+clip_text = true
+metadata/_edit_use_anchors_ = true

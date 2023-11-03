@@ -1,0 +1,43 @@
+[gd_scene load_steps=6 format=3 uid="uid://cvu8b884pp423"]
+
+[ext_resource type="Script" path="res://prefabs/note/note_namer.gd" id="1_x48qf"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_mspoa"]
+bg_color = Color(0.568627, 0, 0, 1)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(0, 0, 0, 1)
+border_blend = true
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_1prrl"]
+bg_color = Color(0.654902, 0.615686, 0, 1)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(0, 0, 0, 1)
+border_blend = true
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_2jwe0"]
+bg_color = Color(0, 0.588235, 0.168627, 1)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(0, 0, 0, 1)
+border_blend = true
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_fi0b2"]
+
+[node name="E" type="Button"]
+offset_right = 600.0
+offset_bottom = 305.0
+theme_override_styles/normal = SubResource("StyleBoxFlat_mspoa")
+theme_override_styles/hover = SubResource("StyleBoxFlat_1prrl")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_2jwe0")
+theme_override_styles/focus = SubResource("StyleBoxEmpty_fi0b2")
+toggle_mode = true
+text = "E"
+script = ExtResource("1_x48qf")

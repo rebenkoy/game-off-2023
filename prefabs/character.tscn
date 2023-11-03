@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3 uid="uid://b7acmr4g4usqx"]
+
+[ext_resource type="SpriteFrames" uid="uid://p21pxkqxgvey" path="res://assets/characters/A/Frames.tres" id="1_klt8g"]
+
+[node name="Character" type="Area2D"]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = ExtResource("1_klt8g")
+animation = &"A"
+frame_progress = 0.875138
